@@ -68,3 +68,18 @@ header .search {
   object-fit: cover;
   display:flex;
 }
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 kolom */
+  gap: 10px; /* jarak antar produk */
+  padding: 20px;
+}
+
+.product-card {
+  background: #fff;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
